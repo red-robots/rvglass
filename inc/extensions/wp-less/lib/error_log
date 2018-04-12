@@ -1,0 +1,5 @@
+[22-Aug-2014 06:38:23] PHP Fatal error:  Class 'WPPluginToolkitConfiguration' not found in /home/the7/public_html/wp-content/themes/dt-the7/inc/extensions/wp-less/lib/Configuration.class.php on line 3
+[22-Aug-2014 06:38:25] PHP Fatal error:  Class 'WPPluginToolkitConfiguration' not found in /home/the7/public_html/wp-content/themes/dt-the7/inc/extensions/wp-less/lib/Configuration.class.php on line 3
+[22-Aug-2014 06:40:57] PHP Fatal error:  Class 'WPPluginToolkitConfiguration' not found in /home/the7/public_html/wp-content/themes/dt-the7/inc/extensions/wp-less/lib/Configuration.class.php on line 3
+[22-Aug-2014 06:40:58] PHP Fatal error:  Class 'WPPluginToolkitConfiguration' not found in /home/the7/public_html/wp-content/themes/dt-the7/inc/extensions/wp-less/lib/Configuration.class.php on line 3
+[22-Aug-2014 08:41:51] PHP Fatal error:  Class 'WPPluginToolkitConfiguration' not found in /home/the7/public_html/wp-content/themes/dt-the7/inc/extensions/wp-less/lib/Configuration.class.php on line 3

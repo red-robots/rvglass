@@ -1,0 +1,3 @@
+[22-Aug-2014 08:47:18] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home/the7/public_html/wp-content/themes/dt-the7/inc/extensions/wp-less/lib/vendor/lessphp/tests/ApiTest.php on line 116
+[22-Aug-2014 08:47:19] PHP Parse error:  syntax error, unexpected T_FUNCTION, expecting ')' in /home/the7/public_html/wp-content/themes/dt-the7/inc/extensions/wp-less/lib/vendor/lessphp/tests/InputTest.php on line 25
+[22-Aug-2014 08:47:21] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home/the7/public_html/wp-content/themes/dt-the7/inc/extensions/wp-less/lib/vendor/lessphp/tests/sort.php on line 37
