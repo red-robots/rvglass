@@ -35,8 +35,24 @@
 		padding-left: 20px;
 	}
 }
-
+/* bella styles*/
 @media screen and (max-width: 800px) {
+	.select-boxes .select-box {
+		float: none;
+	}
+	.select-boxes .select-box label {
+		display: block;
+	}
+	.select-boxes .select-box select {
+	   display: block;
+	}
+	#main .pattern-list td, #main .pattern-list th {
+		padding: 1px;
+		font-size: 10px;
+	}
+	.pattern-list .image {
+		display: none;
+	}
 }
 @media (max-width: 800px) {
 	#page #megaMenu.megaResponsiveToggle ul.megaMenu > li > .sub-menu,
@@ -450,6 +466,9 @@
 	}
 }
 @media screen and (max-width: 560px) {
+	#main .pattern-list td, #main .pattern-list th {
+		font-size: 8px;
+	}
 	.benefits-grid.benefits-style-two .wf-cell.wf-1-2,
 	.benefits-grid.benefits-style-one .wf-cell.wf-1-2 {
 		width: 100% !important;

@@ -11,6 +11,62 @@
  * Copyright © 2013 Dream-Theme. All rights reserved. 
  */
 
+ /**
+ Bellaworks section
+ */
+ .clearfix {
+	 clear:both;
+ }
+ .select-boxes {
+	 width: 100%;
+ }
+ .select-boxes .select-box {
+	float: left;
+	margin: 0 10px 10px 10px;
+ }
+ .select-boxes .select-box label {
+	display: inline-block;
+	margin: 0 10px 0 0;
+ }
+ .select-boxes .select-box select {
+	display: inline-block;
+ }
+ 
+ #main table.pattern-list {
+	 max-width: 100%;
+	 margin: 40px 0 0 0;
+ }
+ .pattern-list tr, .pattern-list thead {
+	 border-bottom: 1px solid #dadee1;
+ }
+ .pattern-list img {
+	 max-width: 100px;
+ }
+
+ .bella-pl-navigation {
+	margin: 40px 0 0 0;
+}
+.bella-pl-navigation ul{
+	margin: 0;
+	padding: 0;
+}
+.bella-pl-navigation li{
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 0;
+	list-style-type: none;
+	background-color: #dadee1;
+	border-radius: 3px;
+	color: white;
+}
+.bella-pl-navigation li.active {
+	background-color: #3b8ced;
+}
+.bella-pl-navigation a{
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
 
 /* !Grid system */
 

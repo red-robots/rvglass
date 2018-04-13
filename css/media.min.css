@@ -5,6 +5,11 @@
 .sidebar-left .wf-container-main{padding-left:245px}
 .sidebar-left .sidebar{width:245px;margin-left:-245px}
 .box-style-table .action-button{padding-left:20px}
+}@media screen and (max-width:800px){.select-boxes .select-box{float:none}
+.select-boxes .select-box label{display:block}
+.select-boxes .select-box select{display:block}
+#main .pattern-list td,#main .pattern-list th{padding:1px;font-size:10px}
+.pattern-list .image{display:none}
 }@media(max-width:800px){#page #megaMenu.megaResponsiveToggle ul.megaMenu>li>.sub-menu,#page #megaMenu.megaResponsiveToggle ul.megaMenu>li.ss-nav-menu-reg .sub-menu{border:0;-webkit-box-shadow:0 0 4px rgba(0,0,0,0.20) !important;-moz-box-shadow:0 0 4px rgba(0,0,0,0.20) !important;-ms-box-shadow:0 0 4px rgba(0,0,0,0.20) !important;-o-box-shadow:0 0 4px rgba(0,0,0,0.20) !important;box-shadow:0 0 4px rgba(0,0,0,0.20) !important}
 #megaMenu.megaResponsive ul.megaMenu>li.menu-item{float:left;margin-left:0}
 #page #megaMenu.megaResponsive ul.megaMenu>li,#page #megaMenu.megaResponsive ul.megaMenu>li a{-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0}
@@ -83,7 +88,8 @@
 #main #pricing-table.pclear .plan#most-popular{margin-bottom:10px}
 #main #shaon-pricing-table .featureTitle,#main #shaon-pricing-table .feature-content{display:none}
 }@media screen and (max-width:960px){.benefits-grid.benefits-style-two .wf-cell.wf-1-3,.benefits-grid.benefits-style-two .wf-cell.wf-1-4,.benefits-grid.benefits-style-two .wf-cell.wf-1-5,.benefits-grid.benefits-style-one .wf-cell.wf-1-3,.benefits-grid.benefits-style-one .wf-cell.wf-1-4,.benefits-grid.benefits-style-one .wf-cell.wf-1-5{width:50% !important}
-}@media screen and (max-width:560px){.benefits-grid.benefits-style-two .wf-cell.wf-1-2,.benefits-grid.benefits-style-one .wf-cell.wf-1-2{width:100% !important}
+}@media screen and (max-width:560px){#main .pattern-list td,#main .pattern-list th{font-size:8px}
+.benefits-grid.benefits-style-two .wf-cell.wf-1-2,.benefits-grid.benefits-style-one .wf-cell.wf-1-2{width:100% !important}
 }@media screen and (max-width:800px){.mini-nav select,.menu-select{display:inline-block}
 .menu-select{position:relative;opacity:1;visibility:visible}
 .mini-nav ul{display:none}
