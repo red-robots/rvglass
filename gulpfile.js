@@ -24,7 +24,7 @@
   * Edit the variables as per your project requirements.
   */
 
-var styleSRC            = './css/main.css'; // Path to main .scss file.
+var styleSRC            = './css/media.css'; // Path to main .scss file.
 var styleDestination    = './css/'; // Path to place the compiled CSS file.
 								// Defualt set to root folder.
 

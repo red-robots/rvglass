@@ -37,6 +37,11 @@
 }
 /* bella styles*/
 @media screen and (max-width: 800px) {
+
+	.template-single-pattern {
+		min-height: auto;
+		padding: 0;
+	}
 	.select-boxes .select-box {
 		float: none;
 	}

@@ -60,4 +60,7 @@ jQuery(document).ready(function ($) {
         }
         window.location.href = full_url;
     });
+    $('.bella-clear').click(function(){
+        window.location.href = window.location.protocol+"//"+window.location.host+"/"+window.location.pathname;
+    });
 });

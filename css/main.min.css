@@ -47,6 +47,7 @@ table{border-collapse:collapse;border-spacing:0}
 .select-boxes .select-box{float:left;margin:0 10px 10px 10px}
 .select-boxes .select-box label{display:inline-block;margin:0 10px 0 0}
 .select-boxes .select-box select{display:inline-block}
+.bella-clear{color:#3b8ced;cursor:pointer}
 #main table.pattern-list{max-width:100%;margin:40px 0 0 0}
 .pattern-list tr,.pattern-list thead{border-bottom:1px solid #dadee1}
 .pattern-list img{max-width:100px}
@@ -55,6 +56,10 @@ table{border-collapse:collapse;border-spacing:0}
 .bella-pl-navigation li{display:inline-block;padding:5px 10px;margin:0;list-style-type:none;background-color:#dadee1;border-radius:3px;color:white}
 .bella-pl-navigation li.active{background-color:#3b8ced}
 .bella-pl-navigation a{display:block;text-decoration:none;color:inherit}
+.template-single-pattern{padding:0 0 40px 0;min-height:700px}
+#main .template-single-pattern .pattern-list{margin:40px 0}
+.template-single-pattern .featured-image img{width:100%;display:block}
+.template-single-pattern .featured-image{margin:40px 0 0 0}
 .wf-container{font-size:0;line-height:0;word-spacing:-4px}
 .wf-cell,.wf-usr-cell,.content,.sidebar,.footer .widget,input[type="text"],input[type="tel"],input[type="url"],input[type="email"],input[type="number"],input[type="date"],input[type="range"],input[type="password"],select,textarea,.customSelect,blockquote,.style-minimal blockquote.shortcode-blockquote,.entry-author,.format-aside-content,.format-status-content,.format-link-content,#phantom .ph-wrap .ph-wrap-content,.dt-mega-menu .sub-nav .dt-mega-parent,.dl-menuwrapper,.project-media,.project-content,.ngg-imagebrowser img,.page-links,.page-nav,.filter-categories,.filter-extras,.filter-by,.filter-sorting,.filter-categories a,.paginator a,.shortcode-action-box.box-style-table,.box-style-table .action-button,.shortcode-tabs .tab,.tab-style-one.tab-horizontal .tab-inner-content,.shortcode-single-caption,.shortcode-single-image,.shortcode-banner-inside,.shortcode-banner-bg,.shortcode-banner,.fs-entry-content,.rollover-content,.instagram-photos a,.fs-entry-slide,.dt-format-gallery a,.dt-format-gallery .rollover-video,.swiper-caption,#main .minimal .plan,#main #pricing-table .plan,.wpb_tour.tab-style-two .wpb_tabs_nav,.wpb_tour.tab-style-one .wpb_tabs_nav,.wpb_tour.tab-style-three .wpb_tabs_nav,#main #content .rotatingtweet,.mfp-container,img.mfp-img,.mfp-img-mobile .mfp-bottom-bar,.soc-ico a,.cs-style-3 .rollover-content-wrap{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box}
 .dt-form input[type="text"],.dt-form input[type="tel"],.dt-form input[type="url"],.dt-form input[type="email"],.dt-form input[type="number"],.dt-form input[type="date"],.dt-form input[type="range"],.dt-form input[type="password"],.comment-form input[type="text"],.comment-form input[type="tel"],.comment-form input[type="url"],.comment-form input[type="email"],.comment-form input[type="number"],.comment-form input[type="date"],.comment-form input[type="range"],.comment-form input[type="password"],.sidebar-bg-off .sidebar-content,.logo-classic-centered #main-nav>li,.logo-classic-centered #main-nav>li>a,.logo-classic #main-nav>li,.logo-classic #main-nav>li>a,#phantom #main-nav>li,#phantom #main-nav>li>a,.dt-mega-menu .sub-nav .dt-mega-parent:hover>a,.shortcode-teaser.frame-on.img-full,div.dream-theme .pp_nav .pp_play,div.dream-theme .pp_nav .pp_pause,.style-minimal #content .tab-style-one .wpb_tabs_nav,.wpb-js-composer div.pp_default .pp_expand,.wpb-js-composer div.pp_default .pp_contract{-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0}

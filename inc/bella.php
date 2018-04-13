@@ -175,6 +175,9 @@ $wp_query = $query_holder;
                         </select>
                     </div><!--.select-box-->
             <?php endforeach;?>
+            <div class="select-box bella-clear">
+                clear
+            </div><!--.select-box-->
             <div class="clearfix"></div>
         </div><!--.select-boxes-->
         <?php $query = new WP_Query($args);
