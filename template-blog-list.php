@@ -30,7 +30,7 @@ get_header(); ?>
 					<?php do_action( 'presscore_before_loop' ); ?>
 
 					<?php if ( !post_password_required() ) : ?>
-
+						<?php the_content();?>
 						<?php
 						$ppp = get_post_meta($post->ID, '_dt_blog_options_ppp', true);
 						$order = get_post_meta($post->ID, '_dt_blog_options_order', true);
