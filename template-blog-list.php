@@ -24,6 +24,9 @@ get_header(); ?>
 
 			<!-- Content -->
 			<div id="content" class="content" role="main">
+				<header class="entry-header">
+					<h1 class="entry-title"><?php the_title(); ?></h1>
+				</header><!-- .entry-header -->
 
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); // main loop ?>
 
@@ -31,6 +34,7 @@ get_header(); ?>
 
 					<?php if ( !post_password_required() ) : ?>
 						<?php the_content();?>
+						&nbsp;
 						<?php
 						$ppp = get_post_meta($post->ID, '_dt_blog_options_ppp', true);
 						$order = get_post_meta($post->ID, '_dt_blog_options_order', true);
@@ -69,9 +73,7 @@ get_header(); ?>
 						?>
 
 							<?php
-							$post_format = get_post_format();
-							if ( $post_format ) $post_format = 'format-' . $post_format;
-							get_template_part( 'content', $post_format );
+							get_template_part( 'content', "blog" );
 							?>
 
 						<?php endwhile; wp_reset_postdata(); endif; ?>
