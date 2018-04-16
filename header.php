@@ -39,6 +39,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 	<!--[if IE]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	<!--<style type="text/css" href="<?php echo get_template_directory_uri()."css/custom-a6cc9304c9.css?ver=4.4.2";?>">-->
 	<style type="text/css" id="static-stylesheet"></style>
 	<?php
 	if ( ! is_preview() ) {

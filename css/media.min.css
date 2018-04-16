@@ -5,7 +5,8 @@
 .sidebar-left .wf-container-main{padding-left:245px}
 .sidebar-left .sidebar{width:245px;margin-left:-245px}
 .box-style-table .action-button{padding-left:20px}
-}@media screen and (max-width:800px){.template-single-pattern{min-height:auto;padding:0}
+}@media screen and (max-width:800px){#page #footer .widget:nth-of-type(3){width:100%}
+.template-single-pattern{min-height:auto;padding:0}
 .select-boxes .select-box{float:none}
 .select-boxes .select-box label{display:block}
 .select-boxes .select-box select{display:block}

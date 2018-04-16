@@ -37,6 +37,9 @@
 }
 /* bella styles*/
 @media screen and (max-width: 800px) {
+	#page #footer .widget:nth-of-type(3){
+		width: 100%;
+	}
 
 	.template-single-pattern {
 		min-height: auto;

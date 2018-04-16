@@ -223,10 +223,23 @@ div.dream-theme .pp_nav .pp_pause,
 .wf-2-3, .wf-span-8 { width: 66.6667%; }
 .wf-span-7 { width: 58.3333% }
 
+.clear {
+	clear: both;
+}
 .wf-1-4,
 .wf-span-3,
-.sidebar,
-.footer .widget { width: 33%; }
+.sidebar
+{ width: 33%; }
+.footer .widget {
+	width: 25%;
+}
+#footer .footaddress h2, #footer .footaddress h5 {
+	float: left !important;
+}
+#page #main .accent-border-color .dt-fancy-title.bg-on {
+	background-color: transparent;
+	padding: 0;
+}
 /*.sidebar{ width: 21.8%; }*/
 .content,
 .wf-3-4, .wf-span-9 { width: 75%; }

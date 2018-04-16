@@ -70,7 +70,11 @@ table{border-collapse:collapse;border-spacing:0}
 .wf-1-3,.wf-span-4{width:33.3333%}
 .wf-2-3,.wf-span-8{width:66.6667%}
 .wf-span-7{width:58.3333%}
-.wf-1-4,.wf-span-3,.sidebar,.footer .widget{width:33%}
+.clear{clear:both}
+.wf-1-4,.wf-span-3,.sidebar{width:33%}
+.footer .widget{width:25%}
+#footer .footaddress h2,#footer .footaddress h5{float:left !important}
+#page #main .accent-border-color .dt-fancy-title.bg-on{background-color:transparent;padding:0}
 .content,.wf-3-4,.wf-span-9{width:75%}
 .wf-1-5{width:20%}
 .wf-1-6,.wf-span-2{width:16.6667%}
