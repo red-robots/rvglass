@@ -197,6 +197,7 @@ $wp_query = $query_holder;
                         $manufacturer = (types_render_field( 'manufacturer'));
                         $model = (types_render_field( 'model'));
                         $year = (types_render_field( 'year'));
+                        $number = (types_render_field( 'partnum'));
                         $window_location = (types_render_field( 'window-location'));
                         $dimensions = (types_render_field( 'dimensions'));
                         $image = (types_render_field( 'image'));?>
@@ -231,7 +232,7 @@ $wp_query = $query_holder;
                                     <?php echo $image;?>
                                 <?php endif;?>
                             </td>
-                            <td><a href="<?php the_permalink();?>">Link</a></td>
+                            <td><a href="<?php the_permalink();?>"><?php echo !empty($number)? $number: 'Link';?></a></td>
                         </tr><!--.pattern-->
                     <?php endwhile;?>
                 </tbody>
