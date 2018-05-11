@@ -190,7 +190,7 @@ $wp_query = $query_holder;
                     <th>Window Location</th>
                     <th>Dimensions</th>
                     <th class="image">Image</th>
-                    <th>Link</th>
+                    <th>Part</th>
                 </thead>
                 <tbody>
                     <?php while($query->have_posts()):$query->the_post();

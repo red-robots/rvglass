@@ -25,7 +25,8 @@ add_filter( 'presscore_post_navigation-args', 'presscore_show_navigation_next_pr
 		$year = (types_render_field( 'year'));
 		$window_location = (types_render_field( 'window-location'));
 		$dimensions = (types_render_field( 'dimensions'));
-		$image = (types_render_field( 'image'));?>
+		$image = (types_render_field( 'image'));
+		$part = (types_render_field( 'partnum'));?>
 		<table class="pattern-list">
 			<thead>
 				<th>Manufacturer</th>
@@ -33,6 +34,7 @@ add_filter( 'presscore_post_navigation-args', 'presscore_show_navigation_next_pr
 				<th>Year</th>
 				<th>Window Location</th>
 				<th>Dimensions</th>
+				<th>Part</th>
 			</thead>
 			<tbody>
 				<tr class="pattern">
@@ -59,6 +61,11 @@ add_filter( 'presscore_post_navigation-args', 'presscore_show_navigation_next_pr
 					<td class="dimensions">
 						<?php if($dimensions):?>
 							<?php echo $dimensions;?>
+						<?php endif;?>
+					</td>
+					<td class="part">
+						<?php if($part):?>
+							<?php echo $part;?>
 						<?php endif;?>
 					</td>
 				</tr><!--.pattern-->
