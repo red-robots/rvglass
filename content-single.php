@@ -68,18 +68,18 @@ add_filter( 'presscore_post_navigation-args', 'presscore_show_navigation_next_pr
 	$share_buttons = str_replace('class="entry-share', 'class="entry-share wf-td', $share_buttons);
 
 	if ( $share_buttons || $post_meta ) {
-		printf(
+		/*printf(
 			'<div class="post-meta wf-table wf-mobile-collapsed">%s%s</div>',
 			$post_meta ? $post_meta : '',
 			$share_buttons ? $share_buttons : ''
-		);
+		);*/
 	}
 	?>
 
 	<?php
 	// 'theme options' -> 'general' -> 'show author info on blog post pages'
 	if ( of_get_option('general-show_author_in_blog', true) ) {
-		presscore_display_post_author();
+		//presscore_display_post_author();
 	}
 	?>
 

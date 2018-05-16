@@ -17,6 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 
 	<div class="entry-content">
 		<?php the_excerpt(); ?>
+		<a href="<?php the_permalink();?>">Read More</a>
 		<?php edit_post_link( __( 'Edit', LANGUAGE_ZONE ), '<span class="edit-link">', '</span>' ); ?>
 	</div><!-- .entry-content -->
 </article><!-- #post-<?php the_ID(); ?> -->
