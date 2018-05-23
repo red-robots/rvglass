@@ -55,8 +55,9 @@
 	   display: block;
 	}
 	#main .pattern-list td, #main .pattern-list th {
-		padding: 1px;
+		padding: 5px 1px;
 		font-size: 10px;
+		line-height: 1;
 	}
 	.pattern-list .image {
 		display: none;
@@ -476,6 +477,8 @@
 @media screen and (max-width: 560px) {
 	#main .pattern-list td, #main .pattern-list th {
 		font-size: 8px;
+		padding: 5px 2px;
+		line-height: 1;
 	}
 	.benefits-grid.benefits-style-two .wf-cell.wf-1-2,
 	.benefits-grid.benefits-style-one .wf-cell.wf-1-2 {
